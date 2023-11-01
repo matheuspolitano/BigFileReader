@@ -17,7 +17,7 @@ Before you can use this application, you need to:
 
 1. Clone this repository to your local machine.
 ```
-git clone <repository_url>
+git clone https://github.com/matheuspolitano/BigFileReader
 ```
 
 2. Navigate to the directory and install the necessary packages.
