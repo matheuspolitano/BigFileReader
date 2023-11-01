@@ -1,6 +1,6 @@
 # ChatGPT Big File Reader
 
-This application allows you to read large files and send their content to ChatGPT using the \`chatgptmax\` package. 
+This application allows you to read large files and send their content to ChatGPT using the `chatgptmax` package. 
 
 ## Features
 - Reads large files effectively.
@@ -9,22 +9,22 @@ This application allows you to read large files and send their content to ChatGP
 
 ## Prerequisites
 Before you can use this application, you need to:
-1. Make sure that you have the necessary packages installed. These can be found in the \`requirements.txt\` file.
-2. Set the environment variable \`OPENAI_API_KEY\` with your OpenAI API key. Ensure you have access to the API.
+1. Make sure that you have the necessary packages installed. These can be found in the `requirements.txt` file.
+2. Set the environment variable `OPENAI_API_KEY` with your OpenAI API key. Ensure you have access to the API.
     - For more details on the OpenAI API and how to get your key, refer to: [OpenAI API Reference](https://form.openai.com/docs/api-reference).
 
 ## Installation
 
 1. Clone this repository to your local machine.
-\`\`\`
+```
 git clone <repository_url>
-\`\`\`
+```
 
 2. Navigate to the directory and install the necessary packages.
-\`\`\`
+```
 cd <directory_name>
 pip install -r requirements.txt
-\`\`\`
+```
 
 ## Set your Key
 
@@ -32,20 +32,20 @@ Please set the OPENAI_API_KEY environment variable with your OpenAI API key. For
 
 ## Usage
 
-1. Edit the \`main.py\` script to specify the path to your desired file in the \`file_path\` variable.
-2. Define your prompt in the \`prompt_text\` variable.
+1. Edit the `main.py` script to specify the path to your desired file in the `file_path` variable.
+2. Define your prompt in the `prompt_text` variable.
 3. Run the script:
-\`\`\`
+```
 python main.py
-\`\`\`
+```
 This will read the content of the specified file, send it to ChatGPT, and print the responses.
 
 ## Code Overview
 
-The main functionality is present in the \`main.py\` script:
+The main functionality is present in the `main.py` script:
 
 - Import necessary modules.
-- Define a function, \`read_file_content()\`, to read the content of the file.
+- Define a function, `read_file_content()`, to read the content of the file.
 - Use this function to read the content and send it to ChatGPT.
 - Print the received responses from ChatGPT.
 
